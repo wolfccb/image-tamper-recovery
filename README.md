@@ -41,3 +41,8 @@ imauth ('sat.bmp',32,16,123456,'sat_auth.bmp','xd',3);
 For example:
 
 imdeauth('sat_auth.bmp',32,16,123456,'sat_ex.bmp','d')
+
+# Credits
+Thanks to scuteejtian for the SPHIT algorithm.
+
+Thanks to Pascal Getreuer for the wavelet transformation algorithm.

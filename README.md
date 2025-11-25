@@ -44,7 +44,7 @@ For example:
 
 imauth ('sat.bmp',32,16,123456,'sat_auth.bmp','xd',3);
 
-  bigger q offers better robustness against JPEG compession and filters, but makes the watermark more visible.
+  bigger q offers better robustness against JPEG compession and filters, but makes the watermark more noticable.
 
   blksize=32, mode='xd' and maxtime=3 is recommended, though 'x' may be slower.
 

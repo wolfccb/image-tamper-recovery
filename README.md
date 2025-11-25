@@ -17,23 +17,6 @@ Use the following two functions in Matlab, imauth for embedding the watermark, i
 
 
 function imauth(carry, blksize, q, pswd, outfn, mode, maxtime)
-%********************************************************************
-% description:
-%   image authentication based on semi-fragile watermark - encoding.
-%   tamper positioning and recovery.
-% author: 
-%   https://wolfccb.com
-% input:
-%   carry:    the carry image filename
-%   blksize:  size of the embedded recover block
-%   q:        quantize factor
-%   pswd:     scramble password, 000001~999999, 0 means no scramble
-%   outfn:    output filename
-%   mode:     string, 'l' for linear scaling, 'x' for multiple embedding
-%             'd' for diagonal switch. 'n' for no diagonal switch. 
-%             'l' and 'x' are mutually exclusive.
-%   maxtime:  max time for multiple embedding.
-%********************************************************************
 
 For example:
 
@@ -45,20 +28,7 @@ imauth ('sat.bmp',32,16,123456,'sat_auth.bmp','xd',3);
 
 
 function imdeauth(carry, blksize, q, pswd, outfn, mode)
-%********************************************************************
-% description:
-%   image authentication based on semi-fragile watermark - decoding.
-%   tamper positioning and recovery.
-% author: 
-%   https://wolfccb.com
-% input:
-%   carry:    the carry image filename
-%   blksize:  size of the embedded recover block
-%   q:        quantize factor
-%   pswd:     scramble password, 000001~999999, 0 means no scramble
-%   outfn:    output filename
-%   mode:     string, 'd' for diagonal switch. 'n' for no diagonal switch.
-%********************************************************************
+
 
 For example:
 

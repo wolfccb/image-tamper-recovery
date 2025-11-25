@@ -9,7 +9,7 @@ Processed image will carry a nearly invisible digital watermark, which can survi
 
 **The tampered zone can be located, and recovered:**
 
-![located & recovered](./_image/w2.jpg?v=3)
+![located & recovered](./_image/w2.jpg?t=3)
 
 **The embedded watermark is nearly invisible:**
 

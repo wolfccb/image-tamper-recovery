@@ -3,7 +3,7 @@ function psnr=calc_psnr(I1,I2)
 % description:
 %   calculate psnr between two grayscale image.
 % author: 
-%   Dong Shen. wolfccb@hotmail.com
+%   https://wolfccb.com
 % input:
 %   I1,I2:    images to compare, must be 2d
 %********************************************************************

@@ -5,15 +5,15 @@ Processed image will carry a nearly invisible digital watermark, which can survi
 
 **If someone tampered a watermarked image:**
 
-![tampered](./_image/w1.jpg?v=2)
+![tampered](./_image/demo1.jpg)
 
 **The tampered zone can be located, and recovered:**
 
-![located & recovered](./_image/w2.jpg?t=3)
+![located & recovered](./_image/demo2.jpg)
 
 **The embedded watermark is nearly invisible:**
 
-![see the dots](./_image/w3.jpg)
+![see the dots](./_image/demo3.jpg)
 
 
 # About this project

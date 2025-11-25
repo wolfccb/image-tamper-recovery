@@ -4,13 +4,13 @@ Semi-fragile watermark for color image tamper detection and recovery. Robust aft
 Processed image will carry a nearly invisible digital watermark, which can survive after mild JPEG compression and some filters. But when the content is tampered, the watermark can be used to dectect the tampered area, and recover the original image.
 
 **If someone tampered the image**
-! [tampered](./_image/w1.jpg)
+![tampered](./_image/w1.jpg)
 
 **The tampered zone can be located, and recovered**
-! [located & recovered](./_image/w2.jpg)
+![located & recovered](./_image/w2.jpg)
 
 **The embedded watermark is nearly invisible**
-! [see the dots](./_image/w3.jpg)
+![see the dots](./_image/w3.jpg)
 
 
 # About this project

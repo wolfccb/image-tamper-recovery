@@ -24,7 +24,7 @@ The positioning result is retouched with mathematical morphologic algorithm in o
 Use the following two functions in Matlab, imauth for embedding the watermark, imdeauth for tamper dectetion and recovery:
 
 
-function imauth(carry, blksize, q, pswd, outfn, mode, maxtime)
+** imauth(carry, blksize, q, pswd, outfn, mode, maxtime) **
 
 For example:
 
@@ -35,7 +35,7 @@ imauth ('sat.bmp',32,16,123456,'sat_auth.bmp','xd',3);
   blksize=32, mode='xd' and maxtime=3 is recommended, though 'x' may be slower.
 
 
-function imdeauth(carry, blksize, q, pswd, outfn, mode)
+** imdeauth(carry, blksize, q, pswd, outfn, mode) **
 
 
 For example:

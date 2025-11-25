@@ -11,7 +11,7 @@ Processed image will carry a nearly invisible digital watermark, which can survi
 
 ![located & recovered](./_image/demo2.jpg)
 
-**The embedded watermark is nearly invisible:**
+**The embedded watermark is nearly invisible (8X zoom):**
 
 ![see the dots](./_image/demo3.jpg)
 

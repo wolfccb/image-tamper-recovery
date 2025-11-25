@@ -8,11 +8,19 @@ Code in Matlab.
 This algorithm was patented CN200810097478.5, and the patent was already expired. So I decided to make everything public. MIT licence. Donation is appreciated.
 
 
-Here is the main idea:
+# The main idea
 
-The watermark is composed of two parts: recovery watermark and positioning watermark. The recovery watermark is the compression of grayscale version of original image based on DWT and SPIHT encoding technology, and the bit rate is about 0.3 bits per pixel. The recovery watermark is pseudo-randomly scrambled by Logistic chaos sequence, and is embedded into the DCT coefficient matrices of chrominance components. The positioning watermark contains several checksum bits which are respectively related to luminance and chrominance components, and is embedded into the DCT coefficient matrices of luminance components. To address data overflow and cut off problem, two methods can be used: affine transform and multiple embedding, each has its strong point. The positioning result is retouched with mathematical morphologic algorithm in order to enhance positioning precision.
+The watermark is composed of two parts: recovery watermark and positioning watermark.
 
+The recovery watermark is the compression of grayscale version of original image based on DWT and SPIHT encoding technology, and the bit rate is about 0.3 bits per pixel. The recovery watermark is pseudo-randomly scrambled by Logistic chaos sequence, and is embedded into the DCT coefficient matrices of chrominance components.
 
+The positioning watermark contains several checksum bits which are respectively related to luminance and chrominance components, and is embedded into the DCT coefficient matrices of luminance components.
+
+To address data overflow and cut off problem, two methods can be used: affine transform and multiple embedding, each has its strong point.
+
+The positioning result is retouched with mathematical morphologic algorithm in order to enhance positioning precision.
+
+# How to use
 Use the following two functions in Matlab, imauth for embedding the watermark, imdeauth for tamper dectetion and recovery:
 
 

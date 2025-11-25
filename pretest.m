@@ -3,7 +3,7 @@ function out = pretest(iny, incb, incr, q)
 % description:
 %   test if the watermark in the block is correctly embedded.
 % author: 
-%   Dong Shen. wolfccb@hotmail.com
+%   https://wolfccb.com
 % input:
 %   in:         input dct block
 %   q:          quantize factor

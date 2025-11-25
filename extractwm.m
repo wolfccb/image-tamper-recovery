@@ -3,7 +3,7 @@ function extractwm(carry, blksize, q, pswd, outfn)
 % description:
 %   extract watermark, locate and restore the tamper zone.
 % author: 
-%   Dong Shen. wolfccb@hotmail.com
+%   https://wolfccb.com
 % input:
 %   carry:    the carry image filename
 %   blksize:  size of the embedded recover block

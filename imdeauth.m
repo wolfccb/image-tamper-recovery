@@ -4,7 +4,7 @@ function imdeauth(carry, blksize, q, pswd, outfn, mode)
 %   image authentication based on semi-fragile watermark - decoding.
 %   tamper positioning and recovery.
 % author: 
-%   Dong Shen. wolfccb@hotmail.com
+%   https://wolfccb.com
 % input:
 %   carry:    the carry image filename
 %   blksize:  size of the embedded recover block

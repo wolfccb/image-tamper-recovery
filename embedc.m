@@ -3,7 +3,7 @@ function [outcb, outcr] = embedc(incb, incr, b, enc, q)
 % description:
 %   embed watermark into cb and cr.
 % author: 
-%   Dong Shen. wolfccb@hotmail.com
+%   https://wolfccb.com
 % input:
 %   incb:   input dct block of cb
 %   incr:   input dct block of cr

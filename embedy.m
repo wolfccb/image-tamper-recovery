@@ -3,7 +3,7 @@ function out = embedy(iny, incb, incr, q)
 % description:
 %   embed watermark into y.
 % author: 
-%   Dong Shen. wolfccb@hotmail.com
+%   https://wolfccb.com
 % input:
 %   in:         input dct block
 %   b:          blocksize

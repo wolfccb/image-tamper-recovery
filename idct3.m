@@ -3,7 +3,7 @@ function I3=idct3(DCT8y, DCT8cb, DCT8cr, c, d)
 % description:
 %   idct on color image.
 % author: 
-%   Dong Shen. wolfccb@hotmail.com
+%   https://wolfccb.com
 % input:
 %   DCT8*:  the carry image dct coefficients
 %   c, d:   size of the area to restore

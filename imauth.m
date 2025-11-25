@@ -4,7 +4,7 @@ function imauth(carry, blksize, q, pswd, outfn, mode, maxtime)
 %   image authentication based on semi-fragile watermark - encoding.
 %   tamper positioning and recovery.
 % author: 
-%   Dong Shen. wolfccb@hotmail.com
+%   https://wolfccb.com
 % input:
 %   carry:    the carry image filename
 %   blksize:  size of the embedded recover block

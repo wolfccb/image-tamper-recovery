@@ -3,7 +3,7 @@ function [outlt, outlb, outrt, outrb]=imdiag(in, c, d)
 % description:
 %   break the image into 4 blocks and switch diagonally.
 % author: 
-%   Dong Shen. wolfccb@hotmail.com
+%   https://wolfccb.com
 % input:
 %   in:     the image
 %   c,d:    size of the input image

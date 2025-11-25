@@ -4,7 +4,7 @@ function embedwm(carry, blksize, q, pswd, outfn)
 %   image authentication based on semi-fragile watermark.
 %   this algorithm uses linear scaling.
 % author: 
-%   Dong Shen. wolfccb@hotmail.com
+%   https://wolfccb.com
 % input:
 %   carry:    the carry image filename
 %   blksize:  size of the embedded recover block

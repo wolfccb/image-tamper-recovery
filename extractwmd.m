@@ -4,7 +4,7 @@ function extractwmd(carry, blksize, q, pswd, outfn)
 %   extract watermark, locate and restore the tamper zone.
 %   this algorithm uses diag break.
 % author: 
-%   Dong Shen. wolfccb@hotmail.com
+%   https://wolfccb.com
 % input:
 %   carry:    the carry image filename
 %   blksize:  size of the embedded recover block

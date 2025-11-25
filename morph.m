@@ -3,7 +3,7 @@ function out = morph(dirtymark)
 % description:
 %   morph the dirtymark by imclose.
 % author: 
-%   Dong Shen. wolfccb@hotmail.com
+%   https://wolfccb.com
 % input:
 %   dirtymark:  dirtymark to be morphed
 % output:

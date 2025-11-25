@@ -3,7 +3,7 @@ function out = extractc(incb, incr, b, q)
 % description:
 %   extract watermark from cb and cr.
 % author: 
-%   Dong Shen. wolfccb@hotmail.com
+%   https://wolfccb.com
 % input:
 %   incb:   input dct block of cb
 %   incr:   input dct block of cr

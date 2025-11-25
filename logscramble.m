@@ -3,7 +3,7 @@ function out = logscramble(pswd, n)
 % description:
 %   embed watermark into cb and cr.
 % author: 
-%   Dong Shen. wolfccb@hotmail.com
+%   https://wolfccb.com
 % input:
 %   pswd:       password used for generating logistic sequence
 %   n:          sequence length

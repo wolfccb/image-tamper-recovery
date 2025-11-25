@@ -3,7 +3,7 @@ function [rmin,rmax]=prescale(in)
 % description:
 %   get the min and max value of a matrix.
 % author: 
-%   Dong Shen. wolfccb@hotmail.com
+%   https://wolfccb.com
 % input:
 %   in:         input image
 % output:

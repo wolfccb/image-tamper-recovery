@@ -3,7 +3,7 @@ function psnr(fn1,fn2)
 % description:
 %   calculate and display psnr between two color images.
 % author: 
-%   Dong Shen. wolfccb@hotmail.com
+%   https://wolfccb.com
 % input:
 %   fn1,fn2:    filenames of images to compare
 %********************************************************************

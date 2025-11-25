@@ -3,7 +3,7 @@ function enc=spiht(I, c, d, b, type, max_bits)
 % description:
 %   compress image with spiht method based on cdf9/7 dwt.
 % author: 
-%   Dong Shen. wolfccb@hotmail.com
+%   https://wolfccb.com
 % input:
 %   I:          the carry image
 %   c, d:       size of the area to be transformed

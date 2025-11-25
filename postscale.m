@@ -3,7 +3,7 @@ function out = postscale(in, rmin, rmax)
 % description:
 %   map the value range in input matrix to [rmin, rmax].
 % author: 
-%   Dong Shen. wolfccb@hotmail.com
+%   https://wolfccb.com
 % input:
 %   in:         input image
 %   rmin:       3x1 array contains min for each color components 

@@ -3,7 +3,7 @@ function [DCT8y, DCT8cb, DCT8cr]=dct3(I3, c, d)
 % description:
 %   dct on color image.
 % author: 
-%   Dong Shen. wolfccb@hotmail.com
+%   https://wolfccb.com
 % input:
 %   I3:     the carry image
 %   c, d:   size of the area to be transformed

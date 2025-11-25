@@ -3,9 +3,20 @@ Semi-fragile watermark for color image tamper detection and recovery. Robust aft
 
 Processed image will carry a nearly invisible digital watermark, which can survive after mild JPEG compression and some filters. But when the content is tampered, the watermark can be used to dectect the tampered area, and recover the original image.
 
-Code in Matlab.
+**If someone tampered the image**
+! [tampered](./_image/w1.jpg)
 
-This algorithm was patented CN200810097478.5, and the patent was already expired. So I decided to make everything public. MIT licence. Donation is appreciated.
+**The tampered zone can be located, and recovered**
+! [located & recovered](./_image/w2.jpg)
+
+**The embedded watermark is nearly invisible**
+! [see the dots](./_image/w3.jpg)
+
+
+# About this project
+This algorithm was patented CN200810097478.5, and the patent was already expired. So I decided to make everything public.
+
+MIT licence. Code in Matlab. Donation is appreciated.
 
 
 # The main idea

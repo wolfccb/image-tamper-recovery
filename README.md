@@ -34,7 +34,7 @@ To address data overflow and cut off problem, two methods can be used: affine tr
 
 The positioning result is retouched with mathematical morphologic algorithm in order to enhance positioning precision.
 
-![flowchart](./_image/flowchart.jpg)
+![flowchart](./_image/flowchart.png)
 
 # How to use
 Use the following two functions in Matlab, imauth for embedding the watermark, imdeauth for tamper dectetion and recovery:

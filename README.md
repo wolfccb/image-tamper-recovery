@@ -67,4 +67,4 @@ MIT licence.
 
 Donation is appreciated.
 
-![donation](./_image/alipay.jpg)
+![donation](./_image/donation.jpg)

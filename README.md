@@ -16,12 +16,6 @@ Processed image will carry a nearly invisible digital watermark, which can survi
 ![see the dots](./_image/demo3.jpg)
 
 
-# About this project
-This algorithm was patented CN200810097478.5, and the patent was already expired. So I decided to make everything public.
-
-MIT licence. Code in Matlab. Donation is appreciated.
-
-
 # The main idea
 
 The watermark is composed of two parts: recovery watermark and positioning watermark.
@@ -62,3 +56,15 @@ imdeauth('sat_auth.bmp',32,16,123456,'sat_ex.bmp','d')
 Thanks to scuteejtian for the SPHIT algorithm.
 
 Thanks to Pascal Getreuer for the wavelet transformation algorithm.
+
+
+# About this project
+This algorithm was patented CN200810097478.5, and the patent was already expired. So I decided to make everything public.
+
+The code is not fully optimized, it takes ~20s to process a large image. If you want to make it faster, please try to optimize the SPIHT part, or rewite the project in C/C++ etc.
+
+MIT licence. 
+
+Donation is appreciated.
+
+![donation](./_image/alipay.jpg)
